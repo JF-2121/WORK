@@ -40,3 +40,8 @@ flutter:
   assets:
     - images/
 
+  fonts:
+  - family: Playwrite
+    fonts:
+    - asset: fonts/Playwrite_NG_Modern/static/PlaywriteNGModern-Regular.ttf
+

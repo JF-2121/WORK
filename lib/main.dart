@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Color.fromARGB(255, 0, 242, 218),
         body: SafeArea(
           child: Column(
             children: [
@@ -21,15 +21,26 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/12.webp'),
               ),
               Text(
-                'MyName',
+                'JF-21',
                 style: TextStyle(
+                  fontFamily: 'Playwrite',
                   fontSize: 30,
                   color: Colors.white,
                   fontWeight: FontWeight.bold
                 ),
+              ),
+              Text(
+                'The Developer',
+                style: TextStyle(
+                  height: 2,
+                  fontFamily: 'Playwrite',
+                  fontSize: 20,
+                  color: Colors.grey,
+                  letterSpacing: 2.0,
+                  fontWeight: FontWeight.bold
+                ),
               )
             ],
-
            ),
         ),
       ),
