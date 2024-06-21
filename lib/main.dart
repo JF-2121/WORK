@@ -10,48 +10,27 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [ 
-            Container(            
-            width: 100.0,
-            color: Colors.red,
-            ),
-            
-            const SizedBox(
-              width: 100,
-            ),
-          
-            Container(
-              width: 100.0,
-              height: 100.0,
-              color: Colors.yellow,
-            ),
-           
-        
-            Container(
-              margin: const EdgeInsetsDirectional.fromSTEB(0, 200, 0, 0),
-              width: 100.0,
-              height: 100.0,
-              color: Colors.green,
-            ),
+          child: Column(
+            children: [
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/12.webp'),
+              ),
+              Text(
+                'MyName',
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
+              )
+            ],
 
-            const SizedBox(
-              width: 100,
-            ),
-          
-            Container(            
-            width: 100.0,
-            color: Colors.blue,
-            ),
-
-            
-          ],
-          ),
+           ),
         ),
       ),
     );
