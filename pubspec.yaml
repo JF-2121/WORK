@@ -38,10 +38,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - images/
-
-  fonts:
-  - family: Playwrite
-    fonts:
-    - asset: fonts/Playwrite_NG_Modern/static/PlaywriteNGModern-Regular.ttf
+    # - images/
 

@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                radius: 50.0,
-                backgroundImage: AssetImage('images/2019_09_Neues_Lager.jpg'),
+                radius: 60.0,
+                backgroundImage: NetworkImage('https://th.bing.com/th/id/OIP.HHVUf3TYqncgpJXyCMmxyAHaHa?rs=1&pid=ImgDetMain'),
               ),
               Text(
                 'Login',
@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
                 ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 700.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                 child: ListTile(
                   leading: Icon(
                         Icons.supervised_user_circle,
@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 700.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
                 child: ListTile(
                   leading: Icon(
                         Icons.key,
