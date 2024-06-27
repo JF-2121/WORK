@@ -1,0 +1,3 @@
+[submodule "new-project"]
+	path = new-project
+	url = https://github.com/londonappbrewery/bmi-calculator-flutter.git
